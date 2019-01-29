@@ -9,29 +9,14 @@
     android:layout_margin="4dp"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/login"
+    <WebView
+        android:id="@+id/web_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="@string/login"
-        android:layout_marginBottom="4dp"/>
-    <!-- TODO! Обернуть в TextInputLayout -->
+        android:layout_gravity="center"
+        android:layout_margin="4dp">
 
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="@string/password"
-        android:layout_marginBottom="4dp"/>
-    <!-- TODO!  Обернуть в TextInputLayout-->
-
-
-    <Button
-        android:id="@+id/auth_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_auth_text"
-        android:layout_gravity="end"/>
+    </WebView>
 
 
 
